@@ -1,0 +1,15 @@
+GET http://localhost:8080/payments/users?ids=123,456
+
+###
+GET http://localhost:8080/payments/ids
+Accept: application/json
+
+###
+POST http://localhost:8080/payments
+Content-Type: application/json
+
+{
+  "userId": "456"
+}
+
+###
